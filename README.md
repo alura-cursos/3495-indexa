@@ -1,27 +1,43 @@
+
+![Descricao da sua imagem](./thumbnail.png)
+
+![](https://img.shields.io/github/license/alura-cursos/android-com-kotlin-personalizando-ui)
+
 # Indexa
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
+Uma aplicação para manipulação de contatos de uma agenda.
 
-## Development server
+## 🔨 Funcionalidades do projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+O App lista os contatos, exibindo nome e telefone. Além disso, toda a lista vem de um arquivo .json e, depois de lido, organizamos de acordo com a letra inicial e aplicamos um filtro interativo
 
-## Code scaffolding
+## ✔️ Técnicas e tecnologias utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+As técnicas e tecnologias utilizadas pra isso são:
 
-## Build
+- `Angular CLI`: ferramenta para construirmos projetos e gerarmos componentes
+- `Componentes`: construindo frontend com partes reaproveitáveis
+- `Template`: sintaxe do angular para escrever templates html
+- `TypeScript`: Uso de classes e decorators para construir componentes
+- `CSS`: para estilizar os componentes
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 📁 Link do Figma
 
-## Running unit tests
+Você pode [acessar o figma do projeto aqui](https://www.figma.com/file/uXjoavDEvDjyE8LsXgliGx/Indexa-%7C-Angular---Primeiros-Passos?node-id=56%3A151029&mode=dev).
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🛠️ Abrir e rodar o projeto
 
-## Running end-to-end tests
+Você vai precisar do NodeJS, versão 18 ou maior.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Após baixar o projeto, você precisa instalar as dependências utilizando o comando:
 
-## Further help
+```bash
+npm install
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Depois, para executar o projeto em modo desenvolvimento:
+
+```bash
+npm start
+```
+
